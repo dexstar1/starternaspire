@@ -1,10 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: 'Static Fuse',
-    description: 'Headless WordPress with Gatsby FTW.',
-    author: 'Scott and Justin',
-    twitter: '@staticfuse',
-    siteUrl: `https://staticfuse.com`,
+    title: "Naspire",
+    description: "Data is good. Insights are better.",
+    author: "Shabi-Oriade Adefolahan",
+    twitter: "@oriadedexstar",
+    siteUrl: `https://naspire.com`,
   },
   plugins: [
     {
@@ -14,9 +14,9 @@ module.exports = {
         mailChimpEndpoint: 0,
         dynamicComments: 1,
         gaTrackingId: 0,
-        wordPressUrl: `https://publishertheme.staticfuse.com`,
-        blogURI: '/blog'
+        wordPressUrl: `https://social.naspire.com`,
+        blogURI: "/blog",
       },
     },
   ],
-}
+};

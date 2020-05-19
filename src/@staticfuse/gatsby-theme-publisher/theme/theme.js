@@ -1,18 +1,17 @@
-import theme from "@staticfuse/gatsby-theme-publisher/src/theme/theme"
+import theme from "@staticfuse/gatsby-theme-publisher/src/theme/theme";
 
 const publisherTheme = {
   ...theme,
   colors: {
     ...theme.colors,
-    // text: "#2D3748",
-    // primary: theme.colors.blue,
+    // text: "#000",
+    // primary: "#42446e",
     // muted: "#999",
-    // headings: "#2D3748",
-    // links: theme.colors.blue,
+    // headings: "#42446e",
+    // links: #42446e,
     // navLink: "#ffffff",
-    // headerBg: "#2D3748"
+    // headerBg: "#42446e"
   },
-}
+};
 
-
-export default publisherTheme
+export default publisherTheme;
